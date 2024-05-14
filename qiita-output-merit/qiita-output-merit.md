@@ -12,7 +12,7 @@ Taisei Yamane(taiyama1212)
 ---
 
 # 自己紹介
-![bg fit left:30% 80%](image.png)
+![bg fit left:30% 80%](../profile/image.png)
 * 山根大生
 * 株式会社iimon
 * フロントエンドエンジニア
