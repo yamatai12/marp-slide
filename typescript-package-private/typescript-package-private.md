@@ -9,7 +9,7 @@ paginate: true
 
 # TypeScriptでpackage privateを実現する3つの方法を比較した
 
-Taisei Yamane(@taiyama1212)
+@taiyama1212
 <style>
 section::after {
   content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total);
