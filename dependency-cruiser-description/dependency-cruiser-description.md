@@ -7,7 +7,7 @@ size: 16:9
 paginate: true
 ---
 
-# dependency-cruiserを紹介します
+# dependency-cruiserを紹介します🚢
 
 @taiyama1212（株式会社iimon）
 <style>
@@ -46,7 +46,7 @@ section::after {
 * 検証の例 🚨
 * 使い所 💡
 * package private のような設計を作る 📦
-* 最後に
+* 最後に🚢
 
 ---
 
@@ -147,7 +147,7 @@ pathがルールを適用するファイルパスで、pathNotが適用されな
 
 ---
 
-# 最後に
+# 最後に🚢
 循環依存の検知をしてくれるのは魅力的です。
 
 また、private pacakgeな設計や、自分が作りたい設計、モジュール管理が心置き無くできるようになります✨
