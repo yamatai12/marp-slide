@@ -142,6 +142,9 @@ module.exports = {
     },
 ]
 ```
+fromがimport(require)する側で、toがexportする側です。
+pathがルールを適用するファイルパスで、pathNotが適用されないファイルパスです。
+
 ---
 
 # 最後に
