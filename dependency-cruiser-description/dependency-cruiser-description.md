@@ -34,7 +34,7 @@ section::after {
 
 「循環依存を検知」
 
-「private packageな設計を守る」
+「package privateな設計を守る」
 
 このようなことを実現してくれるライブラリです！
 
@@ -79,13 +79,12 @@ JavaScript、TypeScriptの依存関係を調べ次の2つのことをします�
 
 index.ts
 ```ts
-import { sub } from "./calc";
+import { calc } from "./calc";
 export const violation = "violation";
 ```
 calc.ts
 ```ts
 import { violation } from "./index";
-
 export const calc = "calc"
 ```
 
