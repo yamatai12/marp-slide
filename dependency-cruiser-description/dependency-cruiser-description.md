@@ -118,21 +118,6 @@ export const calc = "calc"
 ---
 
 # package private のような設計を作る📦
-```terminal
-src/
-├── _package1/
-│   ├── _package2/
-│   │   ├── _private.ts 
-│   │   └──calc.ts 
-│   └── importer.ts
-├── index.ts
-└── exporter.ts
-```
-![bg fit right:50% 80%](image-3.png)
-
----
-
-#
 ```ts
 module.exports = {
   forbidden: [
@@ -158,6 +143,21 @@ module.exports = {
 ```
 fromがimport(require)する側で、toがexportする側です。
 pathがルールを適用するファイルパスで、pathNotが適用されないファイルパスです。
+
+---
+
+#
+```terminal
+src/
+├── _package1/
+│   ├── _package2/
+│   │   ├── _private.ts 
+│   │   └──calc.ts 
+│   └── importer.ts
+├── index.ts
+└── exporter.ts
+```
+![bg fit right:50% 80%](image-3.png)
 
 ---
 
