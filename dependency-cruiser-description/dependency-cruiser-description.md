@@ -118,6 +118,21 @@ export const calc = "calc"
 ---
 
 # package private のような設計を作る📦
+```terminal
+src/
+├── _package1/
+│   ├── _package2/
+│   │   ├── _private.ts 
+│   │   └──calc.ts 
+│   └── importer.ts
+├── index.ts
+└── exporter.ts
+```
+![bg fit right:50% 80%](image-3.png)
+
+---
+
+#
 ```ts
 module.exports = {
   forbidden: [
@@ -149,7 +164,7 @@ pathがルールを適用するファイルパスで、pathNotが適用されな
 # 最後に 🚢
 循環依存の検知をしてくれるのは魅力的です。
 
-また、private pacakgeな設計や、自分が作りたい設計、モジュール管理が心置き無くできるようになります✨
+また、pacakge privateな設計や、自分が作りたい設計、モジュール管理が心置き無くできるようになります✨
 
 デメリットは「コマンドを実行しないと検知されない」ということです。
 
