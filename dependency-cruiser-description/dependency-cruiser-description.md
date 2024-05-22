@@ -156,4 +156,13 @@ pathがルールを適用するファイルパスで、pathNotが適用されな
 
 eslint-plugin-import-access,
 eslint-plugin-strict-dependenciesとの使い分けを考えていきたいです💪
+
+---
+
+# 私たちと一緒に働きませんか？
+
+iimonではエンジニアを募集しています！
+
+![bg fit right:40% 80%](image-2.png)
+
 ## ありがとうございました！！
