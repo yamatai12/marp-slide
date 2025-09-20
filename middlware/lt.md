@@ -19,7 +19,7 @@ Taisei Yamane(taiyama1212)
 
 # 自己紹介
 ![bg fit right:30% 80%](../profile/image.jpg)
-* 山根大生（株式会社immedio）
+* 山根大生（Webエンジニア）
 * SNS
     * X(taiyama1212)
     * Qiita(yamatai12)
